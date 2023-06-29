@@ -2,7 +2,8 @@
 #por el usuario
 
 
-sigue = "S"
+
+       
 lista_nombre=[]
 
 
@@ -18,6 +19,6 @@ while sigue =="s" or sigue =="S":
     contador=lista_nombre.count(nombre_buscar)   
     if contador > 0 :
         print("El nombre: ",nombre_buscar," se repite: ", contador, " veces")
-    else:
-        print("No existe el nombre en la lista")
+    else: 
+        print("El nombre",nombre_buscar, "NO se encuentra \")
     sigue =input("\t \t Deses ingresar mas nombres s/n: ")    
