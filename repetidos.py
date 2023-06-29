@@ -1,13 +1,11 @@
 #Calcula cuantas veces se repite un nombre en una lista de nombres determinada
 #por el usuario
 
-
-
-       
+     
 lista_nombre=[]
+sigue="S"
 
-
-while sigue =="s" or sigue =="S":
+while sigue in ["S","s"]:
     nombre=input("Dame un Nombre: ")
     lista_nombre.append(nombre)
     sigue =input("\t \t Deses ingresar mas nombres s/n: ")
@@ -20,5 +18,5 @@ while sigue =="s" or sigue =="S":
     if contador > 0 :
         print("El nombre: ",nombre_buscar," se repite: ", contador, " veces")
     else: 
-        print("El nombre",nombre_buscar, "NO se encuentra \")
+        print("El nombre",nombre_buscar, "NO se encuentra \n")
     sigue =input("\t \t Deses ingresar mas nombres s/n: ")    

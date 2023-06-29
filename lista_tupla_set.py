@@ -13,6 +13,6 @@ tupla_nombre=tuple(lista_nombre)
 set_nombre = set(lista_nombre)
 print("\n \n Esta es una  Lista :",lista_nombre) 
 print("\n Esta es un Set: ", set_nombre)
-print("\nEsta es una tupla:",tupla_nombre, "\n \n")
+print("\n \t Esta es una tupla:",tupla_nombre, "\n \n")
 #for tupla in tupla_nombre:  
 #    print(tupla)
